@@ -1,16 +1,42 @@
-# React + Vite
+# 🍲 FoodVerse AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FoodVerse AI** is an AI-powered food intelligence project designed to help users explore food, identify ingredients, discover recipes, and understand food freshness.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Food Recognition:** Identify food from an uploaded image.
+- **Freshness Detection:** Estimate whether supported fruits and vegetables appear fresh or stale using a MobileNetV2 model.
+- **Recipe Explorer:** Browse recipes and explore their ingredients.
+- **Ingredient Matching:** Find recipes that match available ingredients.
+- **Nutrition Analysis:** Explore nutritional information about food.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js, JavaScript, CSS, Vite
+- **Recipe Backend:** Node.js
+- **Ingredient Matching:** Python, Flask
+- **Food AI Backend:** FastAPI
+- **Computer Vision:** OpenCV
+- **Machine Learning:** PyTorch, MobileNetV2
 
-## Expanding the ESLint configuration
+## 🚀 Project Status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+FoodVerse AI is under development. Features and integrations may evolve as development continues.
+
+## 💻 Running the Project
+
+The frontend and backend services are developed separately. Setup instructions and dependencies will be documented as the project progresses.
+
+## 🤝 Contributors
+
+Developed as a team project.
+
+## 📄 Acknowledgements
+
+The freshness detection component uses a MobileNetV2 model obtained from Hugging Face. Refer to the original model repository for its licence and usage conditions:
+
+[Fruit and Vegetable Freshness MobileNetV2](https://huggingface.co/Piyu12/fruit-veg-freshness-mobilenetv2)
+
+---
+
+*FoodVerse AI — Explore food with intelligence.*
